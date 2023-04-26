@@ -1,0 +1,17 @@
+{
+    "name": "fady/design_patterns_php",
+    "description": "PHP Design patterns implementations",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fady Elgendy",
+            "email": "fadyelgendy2017@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
