@@ -7,4 +7,7 @@ Creational design patterns provide various object creation mechanisms, which inc
 ### [1 - Factory Method](https://refactoring.guru/design-patterns/factory-method):
 Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
+### [2 - Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory):
+Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+
 # More patterns will be added daily...
