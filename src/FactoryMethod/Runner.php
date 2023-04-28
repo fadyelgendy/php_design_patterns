@@ -3,6 +3,7 @@
 namespace App\FactoryMethod;
 
 use Exception;
+use TypeError;
 
 class Runner
 {
@@ -15,7 +16,7 @@ class Runner
         }else if ($type == strtolower('sea')) {
             $this->transport = new SeaLogistics();
         } else {
-            throw new Exception("ERROR: Unkown Transport Type!");
+            throw new TypeError("ERROR: Unkown Transport Type!");
         }
     }
 

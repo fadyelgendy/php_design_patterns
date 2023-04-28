@@ -2,6 +2,8 @@
 
 namespace App\AbstractFactory;
 
+use TypeError;
+
 class Runner
 {
     private FurnitureFactory $factory;
@@ -10,10 +12,10 @@ class Runner
     {
         if ('modern' == strtolower($type)) {
             $this->factory = new ModernFurnitureFactory();
-        }
-
-        if ('victorian' == strtolower($type)) {
+        } else if ('victorian' == strtolower($type)) {
             $this->factory = new VictorianFurnitureFactory();
+        } else {
+            throw new TypeError("ERROR: Unkown Abstract factory Type");
         }
 
         return $this->factory;

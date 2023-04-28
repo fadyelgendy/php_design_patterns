@@ -10,4 +10,7 @@ Factory Method is a creational design pattern that provides an interface for cre
 ### [2 - Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory):
 Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
 
+### [3 - Builder](https://refactoring.guru/design-patterns/builder):
+Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
 # More patterns will be added daily...
