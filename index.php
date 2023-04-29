@@ -3,6 +3,7 @@
 use App\AbstractFactory\Runner as AbstractFactoryRunner;
 use App\FactoryMethod\Runner as AbstractMethodRunner;
 use App\Builder\Runner as BuilderRunner;
+use App\Prototype\Runner as PrototypeRunner;
 
 require __DIR__ . "/vendor/autoload.php";
 
@@ -19,5 +20,9 @@ $chair = $abstract_factory->getFactory('modern')->createChair(); // Modern Chair
 
 // Builder
 $builder = new BuilderRunner();
-$builder->build('wood');
-$builder->build('stone');
+// $builder->build('wood');
+// $builder->build('stone');
+
+// prototype
+$prototype = new PrototypeRunner();
+$prototype->run();
