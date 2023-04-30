@@ -16,5 +16,6 @@ Builder is a creational design pattern that lets you construct complex objects s
 ### [4 - Prototype](https://refactoring.guru/design-patterns/prototype)
 Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
 
-
+### [5 - Singleton](https://refactoring.guru/design-patterns/singleton)
+Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 # More patterns will be added daily...
