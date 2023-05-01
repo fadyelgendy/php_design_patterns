@@ -5,6 +5,7 @@ use App\FactoryMethod\Runner as AbstractMethodRunner;
 use App\Builder\Runner as BuilderRunner;
 use App\Prototype\Runner as PrototypeRunner;
 use App\Singleton\Runner as SingletonRunner;
+use App\Adapter\Runner  as AdapterRunner;
 
 require __DIR__ . "/vendor/autoload.php";
 
@@ -30,4 +31,8 @@ $prototype = new PrototypeRunner();
 
 // Singleton
 $singleton = new SingletonRunner();
-$singleton->run();
+// $singleton->run();
+
+// Adapter
+$adapter = new AdapterRunner();
+$adapter->run();
