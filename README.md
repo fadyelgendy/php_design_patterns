@@ -18,4 +18,10 @@ Prototype is a creational design pattern that lets you copy existing objects wit
 
 ### [5 - Singleton](https://refactoring.guru/design-patterns/singleton)
 Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+
+## [Structural Patterns](https://refactoring.guru/design-patterns/structural-patterns)
+Structural design patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
+
+### [1 - Adapter](https://refactoring.guru/design-patterns/adapter):
+Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
 # More patterns will be added daily...
