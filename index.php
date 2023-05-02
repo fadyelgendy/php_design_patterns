@@ -6,6 +6,7 @@ use App\Builder\Runner as BuilderRunner;
 use App\Prototype\Runner as PrototypeRunner;
 use App\Singleton\Runner as SingletonRunner;
 use App\Adapter\Runner  as AdapterRunner;
+use App\Bridge\Runner  as BridgeRunner;
 
 require __DIR__ . "/vendor/autoload.php";
 
@@ -35,4 +36,7 @@ $singleton = new SingletonRunner();
 
 // Adapter
 $adapter = new AdapterRunner();
-$adapter->run();
+// $adapter->run();
+
+$bridge = new BridgeRunner();
+$bridge->run();

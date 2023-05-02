@@ -24,4 +24,8 @@ Structural design patterns explain how to assemble objects and classes into larg
 
 ### [1 - Adapter](https://refactoring.guru/design-patterns/adapter):
 Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+
+### [2 - Bridge](https://refactoring.guru/design-patterns/bridge)
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+
 # More patterns will be added daily...
